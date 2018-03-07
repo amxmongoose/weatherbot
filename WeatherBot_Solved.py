@@ -6,10 +6,10 @@ import datetime
 import os
 
 # Twitter API Keys
-consumer_key = os.getenv('twitter_consumer_key')
-consumer_secret = os.getenv('twitter_consumer_secret')
-access_token = os.getenv('twitter_access_token')
-access_token_secret = os.getenv('twitter_access_token_secret')
+consumer_key = os.getenv('TWIT_KEY')
+consumer_secret = os.getenv('TWIT_SECRET')
+access_token = os.getenv('ACCESS_TOKEN')
+access_token_secret = os.getenv('ACCESS_SECRET')
 
 # openweather api key
 openweather_api_key = os.getenv('openweather_api_key')
