@@ -12,7 +12,7 @@ access_token = os.getenv('ACCESS_TOKEN')
 access_token_secret = os.getenv('ACCESS_SECRET')
 
 # openweather api key
-openweather_api_key = os.getenv('openweather_api_key')
+openweather_api_key = os.getenv('OPEN_WEATHER')
 print(f"weather api key {openweather_api_key}")
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
